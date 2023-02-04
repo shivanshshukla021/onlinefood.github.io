@@ -1,0 +1,266 @@
+body {
+    background-color: black;
+    color: cornsilk;
+}
+
+#nav {
+    display: flex;
+    height: 70px;
+    position: relative;
+    ;
+
+}
+
+.logo img {
+    height: 72px;
+    width: 150px;
+}
+
+
+.item {
+    display: flex;
+    margin-left: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgb(19, 15, 15);
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+#nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#nav::before {
+    content: "";
+    background-color: #701515;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: 1;
+
+    ;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    color: cornsilk;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+#services {
+    display: flex;
+}
+
+H1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(243, 242, 240);
+    font-size: 3.8rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    font-family: 'Dancing Script', cursive;
+
+
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+#home::before {
+    content: "";
+    background: url(../16.jpeg) no-repeat center center/cover;
+    position: absolute;
+    height: 54%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+.box2 {
+
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 300px;
+    display: block;
+    margin: auto 0px;
+    padding: 23px;
+    transition: all;
+
+    border: 10PX solid white;
+    /* border-radius: 23px; */
+    color: thistle;
+    box-shadow: 10px 10px rgb(112, 111, 111);
+    font-family: 'Dancing Script', cursive;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 23px;
+    color: rgb(245, 237, 237);
+    font-family: 'Dancing Script', cursive;
+
+
+}
+
+.box2 img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+
+}
+
+#SERVICES {
+    display: flex;
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+}
+
+#SERVICES::before {
+    content: "";
+    background: url(../12.jfif) no-repeat center center/cover;
+    position: absolute;
+    height: 93%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    opacity: 0.9;
+    padding: 10px;
+
+}
+
+.nw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#aboutus {
+    position: relative;
+}
+
+#aboutus::before {
+    content: "";
+    position: absolute;
+    background: url(../NEW1.jpg) no-repeat center center/ cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+
+}
+
+.nw img {
+    height: 100px;
+    width: 100px;
+    margin: 23px;
+    transition: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 3s;
+    display: flex;
+}
+
+.my {
+    color: rgb(245, 237, 237);
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250, 242, 242);
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: cornsilk;
+    color: rgb(20, 16, 16);
+    text-decoration: underline;
+}
+
+.box2:hover {
+
+    opacity: 0.7;
+    color: blanchedalmond;
+
+}
+
+li :hover {
+    background-color: cornsilk;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    background: url(../11.jfif) no-repeat center center/ cover;
+    height: 30%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+
+
+}
+
+.btn {
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: blanchedalmond;
+}
+hr{
+    color: aliceblue
+    beige;
+}
